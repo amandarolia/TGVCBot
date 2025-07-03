@@ -4,11 +4,8 @@
   "description": "Telegram Bot to Play Music in Voice Chat",
   "private": true,
   "scripts": {
-    "dev": "turbo run dev --parallel",
-    "build": "turbo run build",
-    "format": "prettier --write \"apps/**/*.{ts,js,css}\"",
-    "lint": "turbo run lint",
-    "prepare": "husky install"
+    "build": "tsc",
+    "start": "node dist/app.js",
   },
   "author": {
     "email": "arnabxd@pm.me",
